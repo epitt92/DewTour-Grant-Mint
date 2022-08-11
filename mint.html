@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8" />
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+   <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="theme-color" content="#ffffff" />
+   <meta name="description" content="DEW TOUR GRAB YOUR NFT!" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+   <meta name="format-detection" content="telephone=no" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <title>DEW TOUR MINT</title>
+   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="css/style.min.css?v=0.1.7" />
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header__wrapper"> <a href="/" class="header__logo">
+               <picture>
+                  <source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo" />
+               </picture>
+            </a>
+            <div class="header__burger icon" onclick="toggleMobileMenu()"> <svg>
+                  <use xlink:href="img/sprite.svg#burger"></use>
+               </svg> </div>
+            <div class="header__overlay" id="overlay" onclick="toggleMobileMenu()"></div>
+            <div class="header__menu" id="menu">
+               <div class="header__menu-hidden">
+                  <div class="header__button"> <a href="http://discord.gg/dewtour" target="_blank" rel="noopener noreferrer" class="btn btn--major"> <svg>
+                           <use xlink:href="img/sprite.svg#discord"></use>
+                        </svg> Join on discord </a> </div>
+                  <div class="header__close" onclick="toggleMobileMenu()">
+                     <div class="icon"> <svg>
+                           <use xlink:href="img/sprite.svg#close"></use>
+                        </svg> </div>
+                  </div>
+               </div>
+               <div class="header__navigation">
+                  <nav aria-label="navigation">
+                     <ul>
+                        <li onclick="toggleMobileMenu()"><a href="/">Home</a></li>
+                        <li onclick="toggleMobileMenu()"><a href="/nft/#nft">prizes</a></li>
+                        <li onclick="toggleMobileMenu()"><a href="/nft/#steps">grab your NFT</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="header__button"> <a href="http://discord.gg/dewtour" target="_blank" rel="noopener noreferrer" class="btn btn--major"> <svg>
+                        <use xlink:href="img/sprite.svg#discord"></use>
+                     </svg> Join on discord </a> </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="mint">
+         <div class="container">
+            <div class="mint__wrapper">
+               <div class="mint__form mint-form">
+                     <h2 class="mint-form__title h2">Grab your free DEW TOUR NFT</h2>
+                     <div class="mint-form__text text"> Welcome to Iova! This POAP owners will be randomly selected to receive limited edition Dew Tour t-shirts, hats, other apparel and have the chance to hang with a Dew Tour athlete. Also, randomly selected owners will receive discount codes for VIP upgrade packages, merch purchases, concerts and more at future Dew Tour events </div>
+                     <div class="mint-form__inner">
+                        <h3 class="mint-form__count h3">MINT FOR FREE!</h3>
+                        <div class="mint-form__list text-small">
+                           <ul>
+                              <li>1 NFT per Wallet allowed</li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="mint-form__button"> 
+                     <button class="connect-wallet btn btn--major">connect wallet</button> 
+                     <button class="grab-nft btn btn--major" style="display: none;">Grab The NFT</button>
+                  </div>
+               </div>
+               <div class="mint__image hero-image">
+                  <div class="hero-image__before iresponsive rellax-hero-before">
+                     <picture>
+                        <source srcset="img/hero/before_image.webp" type="image/webp"><img src="img/hero/before_image.png" alt="" />
+                     </picture>
+                  </div>
+                  <div class="hero-image__main">
+                     <div class="hero-image__main-circle">
+                        <picture>
+                           <source srcset="img/hero/exclude.svg" type="image/webp"><img src="img/hero/exclude.svg" alt="" />
+                        </picture>
+                     </div>
+                     <div class="hero-image__main-content">
+                        <picture>
+                           <source srcset="img/hero/main_image.svg" type="image/webp"><img src="img/hero/main_image.svg" alt="" />
+                        </picture>
+                     </div>
+                  </div>
+                  <div class="hero-image__after iresponsive rellax-hero-after">
+                     <picture>
+                        <source srcset="img/hero/after_image.webp" type="image/webp"><img src="img/hero/after_image.png" alt="" />
+                     </picture>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer__bg">
+         <picture>
+            <source srcset="img/footer/circle.svg" type="image/webp"><img src="img/footer/circle.svg" alt="" />
+         </picture>
+      </div>
+      <div class="footer__bg-mobile">
+         <picture>
+            <source srcset="img/footer/circle2.svg" type="image/webp"><img src="img/footer/circle2.svg" alt="" />
+         </picture>
+      </div>
+      <div class="container">
+         <div class="footer__wrapper">
+            <div class="footer__before-image iresponsive">
+               <picture>
+                  <source srcset="img/footer/before_image.webp" type="image/webp"><img src="img/footer/before_image.png" alt="" />
+               </picture>
+            </div>
+            <div class="footer__content"> <a href="/" class="footer__logo">
+                  <picture>
+                     <source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo" />
+                  </picture>
+               </a>
+               <div class="footer__inner">
+                  <div class="footer__button"> <a href="http://discord.gg/dewtour" target="_blank" rel="noopener noreferrer" class="btn btn--major"> <svg>
+                           <use xlink:href="img/sprite.svg#discord"></use>
+                        </svg> Join on discord </a> </div>
+                  <div class="footer__social social">
+                     <ul>
+                        <li> <a href="https://www.facebook.com/dewtour" target="_blank" rel="noopener noreferrer"> <svg>
+                                 <use xlink:href="img/sprite.svg#facebook"></use>
+                              </svg> </a> </li>
+                        <li> <a href="https://twitter.com/dewtour" target="_blank" rel="noopener noreferrer"> <svg>
+                                 <use xlink:href="img/sprite.svg#twitter"></use>
+                              </svg> </a> </li>
+                        <li> <a href="https://www.instagram.com/dewtour" target="_blank" rel="noopener noreferrer"> <svg>
+                                 <use xlink:href="img/sprite.svg#instagram"></use>
+                              </svg> </a> </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer__links">
+                  <ul>
+                     <li>©2022 DEW TOUR</li>
+                     <li><a href="#">WEBSITE TERMS OF USE </a></li>
+                     <li><a href="#">PRIVACY POLICY </a></li>
+                     <li><a href="#">FAQ & CONTACT</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer__after-image iresponsive">
+               <picture>
+                  <source srcset="img/footer/after_image.webp" type="image/webp"><img src="img/footer/after_image.png" alt="" />
+               </picture>
+            </div>
+         </div>
+      </div>
+   </footer>
+   
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script src="js/main.min.js?v=0.1.1"></script>
+   <script src="js/mint.js"></script>
+</body>
+
+</html>

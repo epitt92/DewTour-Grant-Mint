@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8" />
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+   <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="theme-color" content="#ffffff" />
+   <meta name="description" content="DEW TOUR GRAB YOUR NFT!" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+   <meta name="format-detection" content="telephone=no" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <title>DEW TOUR</title>
+   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="css/style.min.css?v=0.1.7" />
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="header__wrapper"> <a href="/" class="header__logo">
+               <picture>
+                  <source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo" />
+               </picture>
+            </a>
+            <div class="header__burger icon" onclick="toggleMobileMenu()"> <svg>
+                  <use xlink:href="img/sprite.svg#burger"></use>
+               </svg> </div>
+            <div class="header__overlay" id="overlay" onclick="toggleMobileMenu()"></div>
+            <div class="header__menu" id="menu">
+               <div class="header__menu-hidden">
+                  <div class="header__button"> <a href="http://discord.gg/dewtour" target="_blank" rel="noopener noreferrer" class="btn btn--major"> <svg>
+                           <use xlink:href="img/sprite.svg#discord"></use>
+                        </svg> Join on discord </a> </div>
+                  <div class="header__close" onclick="toggleMobileMenu()">
+                     <div class="icon"> <svg>
+                           <use xlink:href="img/sprite.svg#close"></use>
+                        </svg> </div>
+                  </div>
+               </div>
+               <div class="header__navigation">
+                  <nav aria-label="navigation">
+                     <ul>
+                        <li onclick="toggleMobileMenu()"><a href="/">Home</a></li>
+                        <li onclick="toggleMobileMenu()"><a href="/nft/#nft">prizes</a></li>
+                        <li onclick="toggleMobileMenu()"><a href="/nft/#steps">grab your NFT</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="header__button"> <a href="http://discord.gg/dewtour" target="_blank" rel="noopener noreferrer" class="btn btn--major"> <svg>
+                        <use xlink:href="img/sprite.svg#discord"></use>
+                     </svg> Join on discord </a> </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="hero" id="hero">
+         <div class="hero__slider-top swiper hero-slider-top">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <picture>
+                     <source srcset="img/hero/line.svg" type="image/webp"><img src="img/hero/line.svg" alt="" />
+                  </picture>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="hero__wrapper">
+               <h1 class="hero__title h1">DEW TOUR <span>GRAB YOUR NFT!</span></h1>
+               <div class="hero__image hero-image">
+                  <div class="hero-image__before iresponsive rellax-hero-before">
+                     <picture>
+                        <source srcset="img/hero/before_image.webp" type="image/webp"><img src="img/hero/before_image.png" alt="" />
+                     </picture>
+                  </div>
+                  <div class="hero-image__main">
+                     <div class="hero-image__main-circle">
+                        <picture>
+                           <source srcset="img/hero/exclude.svg" type="image/webp"><img src="img/hero/exclude.svg" alt="" />
+                        </picture>
+                     </div>
+                     <div class="hero-image__main-content">
+                        <picture>
+                           <source srcset="img/hero/main_image.svg" type="image/webp"><img src="img/hero/main_image.svg" alt="" />
+                        </picture>
+                     </div>
+                  </div>
+                  <div class="hero-image__after iresponsive rellax-hero-after">
+                     <picture>
+                        <source srcset="img/hero/after_image.webp" type="image/webp"><img src="img/hero/after_image.png" alt="" />
+                     </picture>
+                  </div>
+               </div>
+               <div class="hero__achives achives">
+                  <div class="achives__items">
+                     <div class="achives__item achives-item">
+                        <div class="achives-item__title subtitle">CLAIM YOUR PROOF OF ATTENDANCE NFT</div>
+                        <div class="achives-item__text text-small"> Follow a few simple steps to become a DEW TOUR NFT owner and enter the draw for prizes and regular bonuses </div>
+                     </div>
+                     <div class="achives__item achives-item">
+                        <div class="achives-item__title subtitle">EXCLUSIVE GIVEAWAYS</div>
+                        <div class="achives-item__text text-small"> Regular exclusive giveaways for all Dew Tour NFT owners </div>
+                     </div>
+                     <div class="achives__item achives-item">
+                        <div class="achives-item__title subtitle">AND MORE…</div>
+                        <div class="achives-item__text text-small"> We have something special for NFT owners from the DEW TOUR collection. Only members of the promotion will know the details! </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="hero__slider-bottom swiper hero-slider-bottom">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <picture>
+                     <source srcset="img/hero/line.svg" type="image/webp"><img src="img/hero/line.svg" alt="" />
+                  </picture>
+               </div>
+            </div>
+         </div>
+         <div class="hero__figure"></div>
+      </div>
+      <div class="nft" style="background-image: url('img/nft/nft_bg.svg')">
+         <div class="nft__lines-before">
+            <picture>
+               <source srcset="img/nft/lines_before.svg" type="image/webp"><img src="img/nft/lines_before.svg" alt="" />
+            </picture>
+         </div>
+         <div class="nft__lines-after">
+            <picture>
+               <source srcset="img/nft/lines_after.svg" type="image/webp"><img src="img/nft/lines_after.svg" alt="" />
+            </picture>
+         </div>
+         <div class="container">
+            <div class="nft__wrapper" id="nft">
+               <div class="nft__title-wrapper">
+                  <h2 class="nft__title h2"> Every <span>Dew Tour NFT</span> owner will receive unique benefits </h2>
+               </div>
+               <div class="nft__sliders">
+                  <div class="nft__slider-thumbs-wrapper">
+                     <div class="nft__slider-thumbs swiper nft-slider-thumbs">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="h4"> Dew Tour POAP owners will have the opportunity to win limited edition Dew Tour skateboard decks signed by Dew Tour athletes (5 total prizes) </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="h4"> Dew Tour POAP owners will be randomly selected to receive limited edition Dew Tour t-shirts, hats, other apparel, and gifts from Dew Tour </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="h4"> Dew Tour POAP owners have the chance to hang with a Dew Tour athlete (3 total prizes. Meet & greet will be virtual or in-person pending location & timing) </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="h4"> Dew Tour POAP owners will be randomly selected to receive discount codes for VIP upgrade packages, merch purchases, concerts and more at future Dew Tour events </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="h4">AND MORE!!!</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="nft__slider-thumbs-arrows">
+                        <div class="nft__slider-thumbs-arrow nft__slider-thumbs-arrow--prev nft-slider-thumbs-arrow-prev">
+                           <div class="icon"> <svg>
+                                 <use xlink:href="img/sprite.svg#chevron_prev"></use>
+                              </svg> </div>
+                        </div>
+                        <div class="nft__slider-thumbs-arrow nft__slider-thumbs-arrow--next nft-slider-thumbs-arrow-next">
+                           <div class="icon"> <svg>
+                                 <use xlink:href="img/sprite.svg#chevron_next"></use>
+                              </svg> </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="steps">
+         <div class="container">
+            <div class="steps__wrapper">
+               <div class="steps__items" id="steps">
+                  <div class="steps__item step">
+                     <div class="step__line">
+                        <picture>
+                           <source srcset="img/steps/step1_line.svg" type="image/webp"><img src="img/steps/step1_line.svg" alt="" />
+                        </picture>
+                     </div>
+                     <div class="step__image rellax-step-first">
+                        <picture>
+                           <source srcset="img/steps/step_img1.webp" type="image/webp"><img src="img/steps/step_img1.png" alt="" />
+                        </picture>
+                     </div>
+                     <div class="step__wrapper">
+                        <h3 class="step__title h3">REGISTER FOR POAP DEW TOUR DROP</h3>
+                        <div class="step__text text step__text--width"> To claim your Proof of Attendance NFT, you will need to go through simple registration on DEW TOUR. <b>Or simply connect Metamask</b> (same link) </div>
+                        <div class="step__buttons">
+                           <div class="step__button"> <a href="/nft/mint" class="btn btn--major"> CLAIM DEW TOUR SUMMER '22 NFT </a> </div>
+                           <div class="step__button"> <a href="#modal-poap" data-modal-open class="btn"> WHAT IS POAP? </a> </div>
+                        </div>
+                     </div>
+                     <div class="step__count-wrapper">
+                        <div class="step__count"><strong></strong><span>Step</span></div>
+                     </div>
+                  </div>
+                  <div data-aos="fade-left" class="steps__item step">
+                     <div class="step__line">
+                        <picture>
+                           <source srcset="img/steps/step2_line.svg" type="image/webp"><img src="img/steps/step2_line.svg" alt="" />
+                        </picture>
+                     </div>
+                     <div class="step__image rellax-step-two">
+                        <picture>
+                           <source srcset="img/steps/step_img2.webp" type="image/webp"><img src="img/steps/step_img2.png" alt="" />
+                        </picture>
+                     </div>
+                     <div class="step__wrapper">
+                        <h3 class="step__title h3">GRAB YOUR FREE DEW TOUR NFT</h3>
+                        <div class="step__text text"> Sign up and go through the account creation process. After creating your account, you must complete the identity verification process to be able to claim your NFT! </div>
+                        <div class="step__buttons">
+                           <div class="step__button"> <a href="#modal-work" data-modal-open class="btn"> How does it work? </a> </div>
+                           <div class="step__button"> <a href="/nft/mint" class="btn btn--major"> claim on metamask </a> </div>
+                        </div>
+                     </div>
+                     <div class="step__count-wrapper">
+                        <div class="step__count"><strong></strong><span>Step</span></div>
+                     </div>
+                  </div>
+                  <div data-aos="fade-right" class="steps__item step">
+                     <div class="step__line">
+                        <picture>
+                           <source srcset="img/steps/step3_line.svg" type="image/webp"><img src="img/steps/step3_line.svg" alt="" />
+                        </picture>
+                     </div>
+                     <div class="step__image rellax-step-three">
+                        <picture>
+                           <source srcset="img/steps/step_img3.webp" type="image/webp"><img src="img/steps/step_img3.png" alt="" />
+                        </picture>
+                     </div>
+                     <div class="step__wrapper">
+                        <h3 class="step__title h3">ENJOY DEW TOUR GIFTS AND BENEFITS!</h3>
+                        <div class="step__text text"> Dew Tour POAP owners will have the opportunity to win exclusive prizes - Skateboards, T-shirts, Hats & other apparel and gifts from Dew Tour, including VIP benefits! </div>
+                     </div>
+                     <div class="step__count-wrapper">
+                        <div class="step__count"><strong></strong><span>Step</span></div>
+                     </div>
+                  </div>
+                  <div data-aos="fade-left" class="steps__item step">
+                     <div class="step__image rellax-step-four">
+                        <picture>
+                           <source srcset="img/steps/step_img4.webp" type="image/webp"><img src="img/steps/step_img4.png" alt="" />
+                        </picture>
+                     </div>
+                     <div class="step__wrapper">
+                        <h3 class="step__title h3">YOU'RE ALL SET!</h3>
+                        <div class="step__text text"> You are now the owner of the DEW TOUR Proof of Attendance NFT! Navigate to your NFT Wallet to view your NFT. </div>
+                     </div>
+                     <div class="step__count-wrapper">
+                        <div class="step__count"><strong></strong><span>Step</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer__bg">
+         <picture>
+            <source srcset="img/footer/circle.svg" type="image/webp"><img src="img/footer/circle.svg" alt="" />
+         </picture>
+      </div>
+      <div class="footer__bg-mobile">
+         <picture>
+            <source srcset="img/footer/circle2.svg" type="image/webp"><img src="img/footer/circle2.svg" alt="" />
+         </picture>
+      </div>
+      <div class="container">
+         <div class="footer__wrapper">
+            <div class="footer__before-image iresponsive">
+               <picture>
+                  <source srcset="img/footer/before_image.webp" type="image/webp"><img src="img/footer/before_image.png" alt="" />
+               </picture>
+            </div>
+            <div class="footer__content"> <a href="/" class="footer__logo">
+                  <picture>
+                     <source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo" />
+                  </picture>
+               </a>
+               <div class="footer__inner">
+                  <div class="footer__button"> <a href="http://discord.gg/dewtour" target="_blank" rel="noopener noreferrer" class="btn btn--major"> <svg>
+                           <use xlink:href="img/sprite.svg#discord"></use>
+                        </svg> Join on discord </a> </div>
+                  <div class="footer__social social">
+                     <ul>
+                        <li> <a href="https://www.facebook.com/dewtour" target="_blank" rel="noopener noreferrer"> <svg>
+                                 <use xlink:href="img/sprite.svg#facebook"></use>
+                              </svg> </a> </li>
+                        <li> <a href="https://twitter.com/dewtour" target="_blank" rel="noopener noreferrer"> <svg>
+                                 <use xlink:href="img/sprite.svg#twitter"></use>
+                              </svg> </a> </li>
+                        <li> <a href="https://www.instagram.com/dewtour" target="_blank" rel="noopener noreferrer"> <svg>
+                                 <use xlink:href="img/sprite.svg#instagram"></use>
+                              </svg> </a> </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer__links">
+                  <ul>
+                     <li>©2022 DEW TOUR</li>
+                     <li><a href="#">WEBSITE TERMS OF USE </a></li>
+                     <li><a href="#">PRIVACY POLICY </a></li>
+                     <li><a href="#">FAQ & CONTACT</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer__after-image iresponsive">
+               <picture>
+                  <source srcset="img/footer/after_image.webp" type="image/webp"><img src="img/footer/after_image.png" alt="" />
+               </picture>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <div class="modal" data-modal="#modal-poap">
+      <div data-modal-close class="modal__area"></div>
+      <div class="modal__body">
+         <div class="modal__content">
+            <div data-modal-close class="modal__close">
+               <div class="icon"> <svg>
+                     <use xlink:href="img/sprite.svg#close"></use>
+                  </svg> </div>
+            </div>
+            <h3 class="modal__title h3">WHAT IS DEW TOUR POAP?</h3>
+            <div class="modal__text">
+               <p> POAP is an acronym for "Proof of Attendance Protocol," and NFTs are non-fungible tokens. Simply put, an NFT is a unique digital collectible. </p>
+               <p> A POAP NFT is a specific type of NFT that shows you attended an event or experience. While POAP NFTs aren't yet widespread, they're quickly becoming popular. </p>
+               <p> POAP NFTs can be used to prove attendance at any type of event, including real-world and virtual events. They're effectively badges supported by cryptographic records. </p>
+               <p> The primary purpose of POAP NFTs is to record your life experiences. Think of them as a form of digital memorabilia. They're a way to look back on important events you were a part of and things you've done. </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal" data-modal="#modal-work">
+      <div data-modal-close class="modal__area"></div>
+      <div class="modal__body">
+         <div class="modal__content">
+            <div data-modal-close class="modal__close">
+               <div class="icon"> <svg>
+                     <use xlink:href="img/sprite.svg#close"></use>
+                  </svg> </div>
+            </div>
+            <h3 class="modal__title h3 modal__title--width">HOW DOES DEW TOUR NFT WORK?</h3>
+            <div class="modal__text">
+               <p> To view POAPs that you've collected, visit the official <b>POAP SCAN</b> page. This lets you view POAPs in your web browser. On this page, you can connect an Ethereum wallet or input either a wallet address or your email address. </p>
+               <p> POAP also offers a mobile app for both iOS and Android devices that you can download to view your POAP. Alternatively, you can view POAP NFTs in the MetaMask mobile app or with Rainbow Wallet, which has built-in POAP visualization support. </p>
+               <p> As previously noted, POAP NFTs aren't intended as an investment, so the money isn't in these types of NFTs. They're made to show where you've been and your communities. </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script src="js/main.min.js?v=0.1.1"></script>
+</body>
+
+</html>
